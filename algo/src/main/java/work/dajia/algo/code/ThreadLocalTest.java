@@ -1,4 +1,6 @@
-package com.dajia.algo.learn;
+package work.dajia.algo.code;
+
+import work.dajia.algo.code.MyRunnable;
 
 public class ThreadLocalTest {
     public static void main(String[] args) {

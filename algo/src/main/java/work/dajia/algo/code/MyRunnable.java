@@ -1,3 +1,5 @@
+package work.dajia.algo.code;
+
 /**
  * 创建了一个MyRunnable实例，并将该实例作为参数传递给两个线程。两个线程分别执行run()方法，
  * 并且都在ThreadLocal实例上保存了不同的值。如果它们访问的不是ThreadLocal对象并且调用的set()方法被同步了，

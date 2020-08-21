@@ -1,7 +1,10 @@
-package src.main.java;
+package work.dajia.algo.code;
 
+import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
+import java.nio.channels.ByteChannel;
+import java.nio.channels.Channel;
 
 public class NIOdemo {
     public static void main(String[] args) {
@@ -11,5 +14,7 @@ public class NIOdemo {
         IntBuffer intBuffer = IntBuffer.wrap(intArray);
 
         System.out.println(byteBuffer + "," + intBuffer);
+
+//        int num = channel.read(byteBuffer);
     }
 }
